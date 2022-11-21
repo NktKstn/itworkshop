@@ -34,11 +34,11 @@ function Main() {
                 </div>
             </div>
             <div className="ceil">
-                <div className="container">
+                <div className="container container-second-page">
                     <div className="header" style={{padding:"20px 20px 20px 10px"}}>
                         <p style={{fontSize:"52px",}}>ИТ ЦЕХ</p>
                     </div>
-                    <main style={{justifyContent:"space-between"}}>
+                    <main className="main-second-page">
                         <div className="info-about-us">
                             <p>>автоматизирует <br/> рутинные тех. процессы компаний <br/>в телеграмм-боте </p>
                             <p>>учет инвентаря\</p>
@@ -46,13 +46,13 @@ function Main() {
                             <p>>учет персонала\</p>
                             <p>>и т.п.> показать на экране <br/>смартфона руководителя\ <span className="low-dash">__</span></p>
                         </div>
-                        <div className="cub-container" style={{display:"flex", alignItems:"end",paddingTop:"120px"}}>
-                            <div className="cube-ceil">
-                                <img src="cube-3.gif" alt="cube"/>
+                        <div className="cub-container cub-container-second-page">
+                            <div className="cube-ceil cube-ceil-second-page">
+                                <img className="img-second-page" src="cube-3.gif" alt="cube"/>
                             </div>
                         </div>
                     </main>
-                    <div className="footer" style={{justifyContent:"space-between", padding:"3em 0 7em 0"}}>
+                    <div className="footer footer-second-page" style={{justifyContent:"space-between", padding:"3em 0 7em 0"}}>
                         <div className="bot" style={{alignItems:"center"}}>
                             <div className="bot-container">
                                 <div className="bot-ceil">
