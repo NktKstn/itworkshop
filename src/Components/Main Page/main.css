@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 .ceil {
     background: black;
     box-sizing: border-box;
@@ -15,7 +17,7 @@
     align-items: start;
 }
 
-h1 {
+h1, h2, h3 {
     color: white;
 }
 
@@ -24,8 +26,9 @@ h1 {
 }
 
 p {
+    line-height: 1.8rem;
     color: white;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .bot {
@@ -51,9 +54,12 @@ main {
 .footer-info {
     display: flex;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
 .low-dash {
+    border-bottom: white 0.7rem solid;
     animation: low-dash 1.2s infinite;
+    font-size: 22px;
 }
 .container-second-page {
 
@@ -73,18 +79,18 @@ img, .img-second-page {
 .cub-container-second-page {
     display: flex;
     align-items: end;
-    padding-top: 120px;
+    padding-top: 30px;
     width: 100%;
     height: 100%;
     max-width: 500px;
 }
 
-
-
 .info-about-us {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
     width: 100%;
     max-width: 610px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 10px;
 }
 
 
@@ -95,13 +101,14 @@ img, .img-second-page {
 @media all and (max-width: 1200px) and (min-width: 1025px){
     p {
         font-size: 28px;
+        line-height: 1.8rem;
     }
     .info-about-us {
         width: 52%;
     }
     .cub-container-second-page {
         width: 48%;
-        padding-top: 50px;
+        padding-top: 70px;
     }
     .img-second-page,.cube-ceil-second-page {
         width: 100%;
@@ -121,14 +128,15 @@ img, .img-second-page {
         padding: 2em;
     }
     p {
-        font-size: 28px;
+        line-height: 1.8rem;
+        font-size: 24px;
     }
     .info-about-us {
         width: 52%;
     }
     .cub-container-second-page {
         width: 48%;
-        padding-top: 50px;
+        padding-top: 70px;
     }
     .img-second-page,.cube-ceil-second-page {
         width: 100%;
@@ -148,6 +156,9 @@ img, .img-second-page {
     main {
         padding: 1em;
     }
+    p {
+        line-height: 1.8rem;
+    }
 }
 @media all and (max-width: 767px) and (min-width: 522px) {
     .cub-ceil main img {
@@ -159,7 +170,8 @@ img, .img-second-page {
         padding: 1em;
     }
     p {
-        font-size: 24px;
+        line-height: 1.8rem;
+        font-size: 22px;
     }
     .info-about-us {
         width: 52%;
@@ -185,8 +197,12 @@ img, .img-second-page {
     main {
         padding: 1em;
     }
-    p {
-        font-size: 24px;
+    p, .low-dash {
+        line-height: 1.8rem;
+        font-size: 18px;
+    }
+    .low-dash {
+        border-bottom: white 0.6rem solid;
     }
     .info-about-us {
         width: 100%;
@@ -207,8 +223,9 @@ img, .img-second-page {
     main {
         padding: 0;
     }
-    p {
-        font-size: 24px;
+    p, .low-dash {
+        line-height: 1.8rem;
+        font-size: 18px;
     }
     .info-about-us {
         width: 100%;
@@ -229,8 +246,9 @@ img, .img-second-page {
     main {
         padding: 0;
     }
-    p {
-        font-size: 24px;
+    p, .low-dash {
+        line-height: 1.8rem;
+        font-size: 16px;
     }
     .info-about-us {
         width: 100%;
@@ -251,8 +269,9 @@ img, .img-second-page {
     main {
         padding: 0;
     }
-    p {
-        font-size: 24px;
+    p, .low-dash {
+        line-height: 1.8rem;
+        font-size: 14px;
     }
     .info-about-us {
         width: 100%;
